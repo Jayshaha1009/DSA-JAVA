@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        System.out.println("enter your number in miles and get converted into km");
+        Scanner in  = new Scanner(System.in);
+        int miles = in.nextInt();
+        System.out.println("your distance in km is " + miles*1.67);
+    }
+
+
+
+}
